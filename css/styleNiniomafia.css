@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #91a56a;
+    max-width: 767px;
+}
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: end;
+}
+
+.dropdown-item {
+    background-color: #91a56a;
+}
+
+.navbar-brand {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+#navbarDropdownMenuLink {
+    font-size: x-large;
+    color: #073b07;
+}
+.ninio {
+    background: radial-gradient(#38ec38, #91a56a) ;
+    font-family: monospace;
+    color: #2c032c;
+    border: 2px dotted; color: #073b07;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.ninio h2 {
+    background-color: #c6f36b;
+    font-size: 30px;
+    text-align: center;
+}
+.ninio h3 {
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: oblique;
+}
+.ninio p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.escuchanos {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    align-items: center;
+    border: 5px solid #073b07    
+}
+
+.campo2 {
+    margin-top: 40px;
+    font-family: monospace;
+    color: #073b07;
+}
+footer p {
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 15px;
+    color: #073b07;
+    text-align: center;
+}
